@@ -13,7 +13,7 @@ function calcularPlazoFijo() {
         } while (isNaN(principal) || principal < 0);
 
         do {
-            interesAnual = parseFloat(prompt("Ingrese la Tasa de Interés Anual (TNA) (%): Ej: Plazo fijo tradicional 13.3%")) / 100;
+            interesAnual = parseFloat(prompt("Ingrese la Tasa de Interés Anual (TNA) (%): Ej: Plazo fijo tradicional 133%")) / 100;
             if (isNaN(interesAnual) || interesAnual < 0) {
                 alert("Por favor, ingrese un valor válido y positivo para la tasa de interés anual.");
             }
