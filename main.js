@@ -1,4 +1,3 @@
-
 function calcularPlazoFijo() {
     let continuar = true;
 
@@ -41,3 +40,4 @@ function calcularPlazoFijo() {
 }
 
 calcularPlazoFijo();
+
